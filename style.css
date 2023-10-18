@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(/images/bg-intro-desktop.png) no-repeat hsl(0, 100%, 74%);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+p {
+  font-size: 18px;
+}
+header {
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: hsl(248, 32%, 49%);
+}
+.container {
+  display: flex;
+  padding-block: 40px 0;
+  padding-inline: 160px 100px;
+}
+.content-side {
+  color: #fff;
+  width: 50%;
+  /* padding-right: 20px; */
+}
+.form-side {
+  width: 50%;
+}
+.header-styling {
+  font-weight: 700;
+}
+header,
+.form-background {
+  width: 80%;
+  padding: 20px;
+}
+.form-background {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+button {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  text-align: center;
+}
+footer {
+  color: #fff;
+  position: fixed;
+  bottom: 10px;
+}
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: yellow;
+}
