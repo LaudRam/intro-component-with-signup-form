@@ -22,10 +22,13 @@ header {
   font-weight: 400;
   border-radius: 10px;
   background-color: hsl(248, 32%, 49%);
+  width: 80%;
+  padding: 20px 40px;
+  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 .container {
   display: flex;
-  padding-block: 40px 0;
+  align-items: center;
   padding-inline: 160px 100px;
 }
 .content-side {
@@ -39,22 +42,99 @@ header {
 .header-styling {
   font-weight: 700;
 }
-header,
 .form-background {
   width: 80%;
-  padding: 20px;
-}
-.form-background {
   margin-top: 20px;
   background-color: #fff;
   border-radius: 10px;
+  padding: 40px 40px 30px 40px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input,
+button {
+  /* margin-bottom: 15px; */
+  border-radius: 5px;
+}
+input {
+  /* max-width: 100%; */
+  width: 93%;
+  padding: 20px 0px;
+  border: 1px rgba(128, 128, 128, 0.686) solid;
+}
+::placeholder {
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.8;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  font-weight: 700;
+  padding-left: 30px;
+  font-size: 14px;
+}
+input:focus {
+  outline: none;
+  border: 1px hsl(249, 10%, 26%) solid;
+  color: hsl(249, 10%, 26%);
+}
+.input-group {
+  position: relative;
+}
+.error-icon {
+  position: absolute;
+  left: 90%;
+  top: 30%;
+  display: none;
+}
+.hidden {
+  display: none;
+}
+.error-msg {
+  display: flex;
+  justify-content: end;
+  color: hsl(0, 100%, 74%);
+  margin-right: 8px;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 500;
+  display: none;
+}
+.error-input {
+  border: 3px solid hsl(0, 100%, 74%);
+  color: hsl(0, 100%, 74%);
+  padding: 15px 0;
 }
 button {
+  padding: 20px;
   text-transform: uppercase;
   color: #fff;
+  font-size: 14px;
+  font-weight: 500;
   background-color: hsl(154, 59%, 51%);
+  box-shadow: inset 0px -5px 0px rgba(0, 0, 0, 0.1);
   border: none;
   text-align: center;
+  width: 100%;
+}
+button:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+small {
+  color: hsl(246, 25%, 77%);
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+}
+.small-span {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
 }
 footer {
   color: #fff;

@@ -37,12 +37,58 @@
         </header>
         <div class="form-background">
           <form>
-            <input type="text" id="first-name" placeholder="First Name" />
-            <input type="text" id="last-name" placeholder="Last Name" />
-            <input type="email" id="email" placeholder="Email Address" />
-            <input type="password" id="password" placeholder="Password" />
-            <button type="button">Claim your free trial</button>
-            By clicking the button, you are agreeing to our Terms and Services
+            <div class="form-group">
+              <div class="input-group">
+                <input type="text" id="first-name" placeholder="First Name" />
+                <img
+                  src="/images/icon-error.svg"
+                  alt="error icon"
+                  class="error-icon"
+                />
+              </div>
+              <span class="error-msg">First Name cannot be empty</span>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <input type="text" id="last-name" placeholder="Last Name" />
+                <img
+                  src="/images/icon-error.svg"
+                  alt="error icon"
+                  class="error-icon"
+                />
+              </div>
+              <span class="error-msg">Last Name cannot be empty</span>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <input type="email" id="email" placeholder="Email Address" />
+                <img
+                  src="/images/icon-error.svg"
+                  alt="error icon"
+                  class="error-icon"
+                />
+              </div>
+              <span class="error-msg">Looks like this is not an email</span>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <input type="password" id="password" placeholder="Password" />
+                <img
+                  src="/images/icon-error.svg"
+                  alt="error icon"
+                  class="error-icon"
+                />
+              </div>
+              <span class="error-msg">Password cannot be empty</span>
+            </div>
+            <div>
+              <button type="button">Claim your free trial</button>
+            </div>
+
+            <small>
+              By clicking the button, you are agreeing to our
+              <span class="small-span"> Terms and Services </span>
+            </small>
           </form>
         </div>
       </div>
@@ -58,5 +104,6 @@
         >.
       </p>
     </footer>
+    <script src="/app.js"></script>
   </body>
 </html>
