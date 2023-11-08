@@ -176,6 +176,7 @@ footer {
   
   p {
   margin-bottom: 40px;
+  font-size: calc(1rem + 1vw);
   }
   /* header {
     color: #fff;
@@ -203,6 +204,7 @@ footer {
   }
   .form-side {
     width: 100%;
+    margin: auto;
   }
   /* .header-styling {
     font-weight: 700;
