@@ -2,13 +2,13 @@ const submitButton = document.querySelector("button");
 
 function handleSubmit(event) {
   event.preventDefault();
-  const isValid = event.target.checkValidity();
+
   const firstName = document.querySelector("#first-name");
   const lastName = document.querySelector("#last-name");
   const email = document.querySelector("#email");
   const password = document.querySelector("#password");
 
-  //Try using arrays and for loop
+  //TODO: use arrays and for loop
 
   const errorMessageName = document.querySelector(".error-msg-name");
   const errorMessageSurname = document.querySelector(".error-msg-surname");
