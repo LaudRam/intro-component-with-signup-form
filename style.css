@@ -179,16 +179,16 @@ footer {
   /* font-size: calc(1rem + 1vw); */
 font-size: 90%;
   }
-  /* header {
-    color: #fff;
+  header {
+    width: auto;
+    /* color: #fff;
     text-align: center;
     font-weight: 400;
     border-radius: 10px;
     background-color: hsl(248, 32%, 49%);
-    width: 80%;
     padding: 20px 40px;
-    box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.2);
-  } */
+    box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.2); */
+  }
   .container {
     display: flex;
     align-items: center;
@@ -205,18 +205,18 @@ font-size: 90%;
   }
   .form-side {
     width: 100%;
-    margin: auto;
+    /* margin: auto; */
   }
   /* .header-styling {
     font-weight: 700;
   } */
-  /* .form-background {
-    width: 80%;
-    margin-top: 30px;
+  .form-background {
+    width: auto;
+    /* margin-top: 30px;
     background-color: #fff;
     border-radius: 10px;
-    padding: 40px 40px 30px 40px;
-  } */
+    padding: 40px 40px 30px 40px; */
+  }
   /* form {
     display: flex;
     flex-direction: column;
