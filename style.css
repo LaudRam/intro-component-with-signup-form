@@ -194,18 +194,20 @@ font-size: 90%;
     align-items: center;
     padding: 0;
     flex-direction: column;
-    margin: 10px;
+    margin-block: 30px;
     /* padding-inline: 160px 100px; */
   }
   .content-side {
     color: #fff;
     width: 100%;
     text-align: center;
+    margin-inline: 30px !important;
     /* padding-right: 20px; */
   }
   .form-side {
     width: 100%;
     margin: auto;
+    margin-inline: 30px !important;
   }
   /* .header-styling {
     font-weight: 700;
