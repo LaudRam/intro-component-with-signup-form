@@ -10,8 +10,8 @@ body {
   min-height: 100dvh;
 }
 h1 {
-  font-size: 50px;
-font-size: 3.5vw;
+  /* font-size: 50px; */
+  font-size: calc(1rem + 2vw);
   line-height: 1.2;
 }
 p {
@@ -170,12 +170,13 @@ footer {
   h1 {
     /* font-size: 50px; */
     /* line-height: 1.2; */
+  font-size: calc(1rem + 3vw);
     margin-inline: 30px;
   }
-  /*
+  
   p {
-    font-size: 18px;
-  } */
+  margin-bottom: 40px;
+  }
   /* header {
     color: #fff;
     text-align: center;
