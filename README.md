@@ -18,6 +18,10 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ![](/images/Desktop_View.jpeg)
 
+#### Desktop View Active State
+
+![](/images/Desktop_View_Active_State.jpeg)
+
 #### Mobile View
 
 ![](/images/Mobile_View.png)
